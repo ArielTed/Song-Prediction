@@ -32,3 +32,6 @@ To predict the release decade of a song from audio feature, we used 4 different 
 
 * Neural Network : Neural networks are a series of algorithms that mimic the operations of a human brain to recognize relationships between vast amounts of data. [Learn More Here](https://en.wikipedia.org/wiki/Artificial_neural_network "Learn More Here").
 
+Let's test our Django API !
+
+You can take a look at our explanation slides in Slides.pdf and take a look at our notebook that serves for our model benchmarking and data exploration.
