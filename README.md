@@ -44,7 +44,7 @@ In order to test the API, run the following commands :
 6. python manage.py runserver
 ```
 The server is running on port 8000.
-To test the model, you need to make a POST request to /api/prediction with the data in the body of the request.
+To test the model, you need to make a POST request to /api/predict/ with the data in the body of the request.
 
 
 <br/>*You can take a look at our explanation slides in Slides.pdf and take a look at our notebook that serves for our model benchmarking and data exploration.*
