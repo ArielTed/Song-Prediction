@@ -1,6 +1,6 @@
 # Song Prediction
 
-# YearPredictionMSD Data Set 
+## YearPredictionMSD Data Set 
 ## Python for data analysis
 
 * Ariel TEDGUI
@@ -32,6 +32,19 @@ To predict the release decade of a song from audio feature, we used 4 different 
 
 * Neural Network : Neural networks are a series of algorithms that mimic the operations of a human brain to recognize relationships between vast amounts of data. [Learn More Here](https://en.wikipedia.org/wiki/Artificial_neural_network "Learn More Here").
 
-Let's test our Django API !
+## Django API
+We created a Django API to test our model.
+In order to test the API, run the following commands :
+```
+1. cd DjangoAPIFolder
+2. python -m pip install virtualenv
+3. python -m virtualenv Env64
+4. source Env64/bin/activate
+5. pip install -r requirements.txt
+6. python manage.py runserver
+```
+The server is running on port 8000.
+To test the model, you need to make a POST request to /api/prediction with the data in the body of the request.
 
-You can take a look at our explanation slides in Slides.pdf and take a look at our notebook that serves for our model benchmarking and data exploration.
+
+<br/>*You can take a look at our explanation slides in Slides.pdf and take a look at our notebook that serves for our model benchmarking and data exploration.*
